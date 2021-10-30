@@ -149,7 +149,7 @@ impl TextData {
         }
 
         Ok(TextData {
-            data: Tensor::of_slice(&buffer),
+            data: Tensor::of_slice(&buffer),            
             char_for_label,
             label_for_char,
         })
